@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/visiting" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMPANY NAME"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingTop="55dp"
+        android:textSize="35sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="-1dp"
+        android:id= "@+id/line"
+        android:textSize="5dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:layout_below = "@+id/line"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job Details"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:layout_below = "@+id/name"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone number"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:layout_below = "@+id/job"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:layout_below = "@+id/phone"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:layout_below = "@+id/add"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:layout_below = "@+id/mail"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
